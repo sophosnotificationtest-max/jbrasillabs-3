@@ -10,11 +10,9 @@ async function startServer() {
   const app = express();
   const server = createServer(app);
 
-  // Serve static files from dist/public in production
-  const staticPath =
-    process.env.NODE_ENV === "production"
-      ? path.resolve(__dirname, "public")
-      : path.resolve(__dirname, "..", "dist", "public");
+  // Serve static files from client folder in the same directory as index.js
+  // Vite builds to dist/client, and esbuild builds server to dist/index.js
+  const staticPath = path.resolve(__dirname, "client");
 
   app.use(express.static(staticPath));
 
@@ -24,7 +22,7 @@ async function startServer() {
       status: "ok", 
       timestamp: new Date().toISOString(),
       uptime: process.uptime(),
-      environment: process.env.NODE_ENV || "development"
+      environment: process.env.NODE_ENV || "production"
     });
   });
 
