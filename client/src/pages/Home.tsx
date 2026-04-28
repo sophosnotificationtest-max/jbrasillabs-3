@@ -21,7 +21,7 @@ const Home = () => {
       <Footer />
       
       {/* Mantendo componentes funcionais do repositório original */}
-      <WhatsAppWidget phoneNumber="5547992813583" />
+      <WhatsAppWidget phoneNumber="554196186960" />
       <CookieConsent />
     </main>
   );
