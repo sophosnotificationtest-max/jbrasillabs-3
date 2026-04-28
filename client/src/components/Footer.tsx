@@ -2,7 +2,7 @@ import { useAnalytics } from "@/hooks/useAnalytics";
 
 export function Footer() {
   const { trackConversions } = useAnalytics();
-  const whatsappNumber = "5547992813583";
+  const whatsappNumber = "554196186960";
   const whatsappUrl = `https://wa.me/${whatsappNumber}`;
 
   const handleWhatsAppClick = () => {
@@ -62,17 +62,17 @@ export function Footer() {
                   onClick={handleWhatsAppClick}
                   className="transition-colors hover:text-green"
                 >
-                  WhatsApp: (47) 99281-3583
+                  WhatsApp: (41) 9618-6960
                 </button>
               </li>
-              <li className="text-muted-foreground">Curitiba · São Paulo · Remoto</li>
+              <li className="text-muted-foreground">Curitiba · Balneário Piçarras · Remoto</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-border pt-6 md:flex-row md:items-center">
           <span className="font-mono text-[11px] text-muted-foreground">
-            © {new Date().getFullYear()} JBrasil Labs · CNPJ 00.000.000/0001-00
+            © {new Date().getFullYear()} JBrasil Labs · CNPJ 65.109.396/0001-55
           </span>
           <span className="font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
             Build · main@a4f7c2 · pt-BR
