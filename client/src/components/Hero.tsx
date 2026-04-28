@@ -36,8 +36,7 @@ export function Hero() {
               className="mt-7 max-w-xl text-[17px] leading-relaxed text-muted-foreground animate-fade-up"
               style={{ animationDelay: "260ms" }}
             >
-              Agências tradicionais entregam lentidão e código legado em meses. Nós entregamos
-              arquitetura nativa, escalável e impecável — em semanas.
+              Landing pages profissionais desenvolvidas em menos de 48 horas. Design futurista, SEO otimizado e suporte contínuo para seu negócio decolar.
             </p>
 
             <div
@@ -51,12 +50,7 @@ export function Hero() {
                 Iniciar projeto
                 <ArrowRight className="h-4 w-4 transition-transform duration-500 ease-out-expo group-hover:translate-x-1" />
               </a>
-              <a
-                href="#trabalhos"
-                className="btn-scan inline-flex h-12 items-center gap-2.5 border border-border bg-transparent px-6 font-mono text-[13px] uppercase tracking-wider text-foreground transition-colors hover:border-border-strong active:scale-[0.98]"
-              >
-                Ver portfólio
-              </a>
+
             </div>
 
             {/* Trust strip */}

@@ -4,20 +4,20 @@ const STEPS = [
   {
     n: "01",
     title: "Discovery",
-    duration: "1 semana",
-    body: "Imersão técnica e estratégica. Mapeamos restrições reais, riscos e o vetor de valor mais curto até o lançamento.",
+    duration: "2 horas",
+    body: "Briefing rápido e estratégico. Alinhamos seus objetivos e definimos a estrutura ideal para sua conversão.",
   },
   {
     n: "02",
-    title: "Design + arquitetura",
-    duration: "2–3 semanas",
-    body: "Design system enxuto, fluxos críticos prototipados e arquitetura validada com spikes técnicos antes de uma linha de produção.",
+    title: "Design + Copy",
+    duration: "12–24 horas",
+    body: "Criação visual futurista e textos persuasivos focados em vendas, garantindo uma interface impecável.",
   },
   {
     n: "03",
-    title: "Engenharia em sprints",
-    duration: "4–8 semanas",
-    body: "Entregas semanais em ambiente de staging com observabilidade desde o dia um. Você acompanha em tempo real, não em PDF.",
+    title: "Desenvolvimento",
+    duration: "24 horas",
+    body: "Codificação nativa em React com performance extrema e SEO integrado. Sua página pronta para o tráfego.",
   },
   {
     n: "04",

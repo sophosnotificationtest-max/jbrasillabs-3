@@ -3,7 +3,7 @@ import { Hero } from "@/components/Hero";
 import { StatsBar } from "@/components/StatsBar";
 import { Services } from "@/components/Services";
 import { Process } from "@/components/Process";
-import { Portfolio } from "@/components/Portfolio";
+// Portfolio removido
 import { CTA } from "@/components/CTA";
 import { Footer } from "@/components/Footer";
 import WhatsAppWidget from '@/components/WhatsAppWidget';
@@ -17,12 +17,11 @@ const Home = () => {
       <StatsBar />
       <Services />
       <Process />
-      <Portfolio />
       <CTA />
       <Footer />
       
       {/* Mantendo componentes funcionais do repositório original */}
-      <WhatsAppWidget phoneNumber="5511999999999" />
+      <WhatsAppWidget phoneNumber="5547992813583" />
       <CookieConsent />
     </main>
   );

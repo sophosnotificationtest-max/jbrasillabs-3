@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 const NAV_LINKS = [
   { href: "#servicos", label: "Serviços" },
   { href: "#processo", label: "Processo" },
-  { href: "#trabalhos", label: "Trabalhos" },
   { href: "#sobre", label: "Sobre" },
 ];
 
@@ -25,12 +24,7 @@ export function Nav() {
     >
       <div className="container mx-auto flex h-16 items-center justify-between">
         <a href="#top" className="flex items-center gap-2.5">
-          <span className="grid h-7 w-7 place-items-center border border-green/60 bg-green/10">
-            <span className="font-mono text-[11px] font-medium text-green">JB</span>
-          </span>
-          <span className="font-display text-[15px] font-medium tracking-tight text-foreground">
-            JBrasil <span className="text-muted-foreground">Labs</span>
-          </span>
+          <img src="/logo.png" alt="JBrasil Labs" className="h-8 w-auto" />
         </a>
 
         <nav className="hidden items-center gap-9 md:flex">

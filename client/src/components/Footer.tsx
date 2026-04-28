@@ -2,7 +2,7 @@ import { useAnalytics } from "@/hooks/useAnalytics";
 
 export function Footer() {
   const { trackConversions } = useAnalytics();
-  const whatsappNumber = "5511999999999";
+  const whatsappNumber = "5547992813583";
   const whatsappUrl = `https://wa.me/${whatsappNumber}`;
 
   const handleWhatsAppClick = () => {
@@ -15,12 +15,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-12">
           <div className="md:col-span-5">
             <a href="#top" className="flex items-center gap-2.5">
-              <span className="grid h-7 w-7 place-items-center border border-green/60 bg-green/10">
-                <span className="font-mono text-[11px] font-medium text-green">JB</span>
-              </span>
-              <span className="font-display text-[15px] font-medium tracking-tight text-foreground">
-                JBrasil <span className="text-muted-foreground">Labs</span>
-              </span>
+              <img src="/logo.png" alt="JBrasil Labs" className="h-8 w-auto" />
             </a>
             <p className="mt-5 max-w-sm text-[14px] leading-relaxed text-muted-foreground">
               Engenharia digital de alta performance para empresas que tratam
@@ -41,7 +36,7 @@ export function Footer() {
             <ul className="mt-4 space-y-2.5 text-[14px] text-foreground/80">
               <li><a href="#servicos" className="transition-colors hover:text-green">Serviços</a></li>
               <li><a href="#processo" className="transition-colors hover:text-green">Processo</a></li>
-              <li><a href="#trabalhos" className="transition-colors hover:text-green">Trabalhos</a></li>
+
               <li><a href="#contato" className="transition-colors hover:text-green">Contato</a></li>
             </ul>
           </div>
@@ -67,7 +62,7 @@ export function Footer() {
                   onClick={handleWhatsAppClick}
                   className="transition-colors hover:text-green"
                 >
-                  WhatsApp: (11) 99999-9999
+                  WhatsApp: (47) 99281-3583
                 </button>
               </li>
               <li className="text-muted-foreground">Curitiba · São Paulo · Remoto</li>
