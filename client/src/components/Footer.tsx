@@ -41,17 +41,6 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className="md:col-span-2">
-            <h4 className="font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
-              Recursos
-            </h4>
-            <ul className="mt-4 space-y-2.5 text-[14px] text-foreground/80">
-              <li><a href="#" className="transition-colors hover:text-green">Notas técnicas</a></li>
-              <li><a href="#" className="transition-colors hover:text-green">Open source</a></li>
-              <li><a href="#" className="transition-colors hover:text-green">Carreiras</a></li>
-            </ul>
-          </div>
-
           <div className="md:col-span-3">
             <h4 className="font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
               Contato
