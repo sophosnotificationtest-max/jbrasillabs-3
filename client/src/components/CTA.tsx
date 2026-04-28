@@ -4,7 +4,7 @@ import { useAnalytics } from "@/hooks/useAnalytics";
 
 export function CTA() {
   const { trackConversions } = useAnalytics();
-  const whatsappNumber = "5547992813583";
+  const whatsappNumber = "554196186960";
   const whatsappMessage = encodeURIComponent("Olá! Gostaria de agendar um diagnóstico técnico para meu projeto.");
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
