@@ -24,7 +24,7 @@ export function Nav() {
     >
       <div className="container mx-auto flex h-16 items-center justify-between">
         <a href="#top" className="flex items-center gap-2.5">
-          <img src="/logo.png" alt="JBrasil Labs" className="h-8 w-auto" />
+          <img src="/logo.png" alt="JBrasil Labs" className="h-16 w-auto" />
         </a>
 
         <nav className="hidden items-center gap-9 md:flex">
