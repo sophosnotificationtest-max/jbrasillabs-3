@@ -15,7 +15,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-12">
           <div className="md:col-span-5">
             <a href="#top" className="flex items-center gap-2.5">
-              <img src="/logo.png" alt="JBrasil Labs" className="h-8 w-auto" />
+              <img src="/logo.png" alt="JBrasil Labs" className="h-12 w-auto" />
             </a>
             <p className="mt-5 max-w-sm text-[14px] leading-relaxed text-muted-foreground">
               Engenharia digital de alta performance para empresas que tratam
